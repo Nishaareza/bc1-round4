@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    color: red;
+}
+
+.nav-list{
+  float: right;
+  list-style: none;
+}
+
+.main-nav {
+  background: #ccc;
+  height: 75px;
+}
+
+.nav-item{
+  margin-left: 10px;
+  float: left;
+  color: gold;
+  font-size: 36px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: magenta;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav-link:hover {
+    color: gold;
+    font-size: 24px;
+    text-decoration: overline;
+}
+
+/** Start Dragon Banner Styles **/
+.banner {
+    background-image: url("../images/dragon.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    font-family: 'Lobster', cursive;
+}
+
+.header-background {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.banner-header {
+    display: inline;
+    background-color: rgba(0, 0, 0, .25);
+    color: #000;
+}
+/** End Dragon Banner Styles **/
+
+/**Start column styles**/
+.container {
+/*  margin: 25px auto;*/
+}
+
+.container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.column {
+  width: 25%;
+ /** height: 350px;**/
+  float: left;
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 2.5%;
+  margin-left: 2.5%;
+}
+
+.column-text {
+  tex-align: center;
+}
+
+.column-image {
+  width: 100%;
+  height: 200px;
+}
+
+.column-header {
+  color: #f00;
+}
+/**End column styles**/
+/** Start Shape Styles **/
+
+.shape {
+  margin: 25px auto;
+} 
+
+.img-circular {
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
+/** End Shape Styles**/
+
+/** Start Footer Styles **/
+
+footer {
+  height: 150px;
+  padding: 20px;
+  background-color: #404040;
+  color: #ccc;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+}
+
+.footer-section {
+  height: 100%;
+  width: 33.3%;
+  float: left;
+  margin: 0 auto;
+}
+
+.center-container {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.social-media {
+  height: 100%;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.section {
+  height: 50px;
+}
+
+.icon {
+  height: 100%;
+  width: 50px;
+  text-align: center;
+  margin-left: calc(100%/3);
+  background: green; /* For browsers that do not support gradients */
+  /* Safari 5.1 to 6.0 */
+  background: -webkit-radial-gradient(#fff, green);
+  /* Opera 11.1 to 12.0 */
+  background: -o-radial-gradient(#fff, green);
+  /* Firefox 3.6 to 15 */
+  background: -moz-radial-gradient(#fff, green);
+  /* Standard syntax */
+  background: radial-gradient(#fff, green);
+  border-radius: 100%;
+}
+
+.icon .fa {
+  color: #7fa4ff;
+  font-size: 25px;
+  margin-top: 12.5px;
+}
+
+.icon.left {
+  float: left;
+  margin-left: 0px;
+}
+
+.icon.right {
+  float: right;
+  margin-left: 0px;
+}
+
+.copyright-text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright-margin {
+  margin-top: 40px;
+}
+
+/** End Footer Styles **/
+
+/** About page css **/
+
+.column-profile {
+    width: 49.85%;
+    float: left;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 0;
+    border: transparent;
+}
+
+.column-interest {
+    width: 33.15%;
+    float: left;
+    border: 1px solid #707070;
+    text-align: center;
+    margin: 0;
+}
+
+.column-picture {
+  width: 100%;
+  height: 400px;
+}
